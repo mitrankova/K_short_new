@@ -99,8 +99,7 @@ void Fun4All_FieldOnAllTrackers(
   ACTSGEOM::mvtxMisalignment = 100;
   ACTSGEOM::inttMisalignment = 100.;
   ACTSGEOM::tpotMisalignment = 100.;
- // std::string outdir = "/sphenix/tg/tg01/hf/mitrankova/ana/Cuts/";
-  std::string outdir = "/sphenix/user/mitrankova/analysis/KFP/output/";
+  std::string outdir = "/sphenix/tg/tg01/hf/mitrankova/ana/";
  // TString outfile = outdir + outfilename + "_" + runnumber + "_" + segment;
   std::string outfile = outfilename + "_" + to_string(runnumber) + "_" + to_string(segment) + ".root";
 
